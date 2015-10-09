@@ -1,0 +1,7 @@
+ApplicationName = 'zumata'
+Author = 'Hentry Martin'
+Description = 'This is about searching the hotel in a area'
+Documentation = "For detailed documentation please refer to docs folder"
+Disclaimer = "Some of the features like font-size, color may not be precise since there was no proper color code provided"
+
+Please give the following as an input to the search field. 'sin' and 'kuala', because the data are pulled from the JSON files so it will not fetch values for other inputs

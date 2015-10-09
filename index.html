@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="full-height">
+    <head>
+        <!-- Title and meta tag -->
+        <title>Zumata</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Loading Script tags -->
+        <script src="libs/angular.min.js"></script>
+        <script src="libs/ui-router.min.js"></script>
+        <script src="libs/jquery-2.1.3.min.js"></script>
+        <script src="app/app.js"></script>
+
+        <!-- Loading styles -->
+        <link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/styles/app.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/styles/font-awesome.css"/>
+
+        <!-- Controller -->
+        <script src="app/js/controllers/HomeController.js"></script>
+
+        <!-- Services -->
+        <script src="app/js/services/SearchService.js"></script>
+
+        <!-- Directives -->
+        <script src="app/js/directives/zumataSearch.js"></script>
+        <script src="app/js/directives/stopPropagation.js"></script>
+
+    </head>
+    <!-- Application starts here-->
+    <body data-ng-app="zumata" class="full-height container">
+
+        <!-- This is the app header -->
+        <header class="row">
+            <div class="col-sm-9 col-xs-7 full-height zero-padding">
+                <img class="zumata-logo" src="assets/images/brand-g.png" alt="zumata logo">
+            </div>
+            <div class="col-sm-3 col-xs-5 full-height ">
+                <div class="login-tray pull-right">
+                    <span class="country">US$</span>
+                    <span>login</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- This is the main content -->
+        <main class="row" data-ui-view></main>
+    </body>
+</html>

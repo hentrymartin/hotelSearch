@@ -1,0 +1,232 @@
+/*This file contains the custom styles of this application*/
+html {
+	position: relative;
+}
+body {
+	font-size: 14px;
+  	line-height: 20px;
+  	font-weight: 400;
+  	background: #eef1f3;
+	font-family: 'FontAwesome';
+}
+
+header {
+	height: 9%;
+	border-bottom: #C8C8C8 1px solid;
+	background-color: #377EBE;
+}
+
+header .zumata-logo {
+	width: 125px;
+  	margin-top: 8px;
+  	margin-left: 5px;
+}
+
+main {
+	height: 91%;
+	background-color: #0f2b37;
+	color: #e4EEF7;
+}
+
+.login-tray {
+	color: white;
+}
+
+.login-tray span {
+	position: relative;
+	top: 15px;
+}
+
+.login-tray .country {
+	margin-right: 20px;
+}
+
+.text-content {
+	font-size: 18px;
+  	margin-top: 20px;
+  	margin-bottom: 10px;
+}
+
+.question-holder {
+	background-color: #1A191B;
+	margin: 15px 5px 15px 5px;
+  	clear: both;
+  	padding: 3px 6px 5px 6px;
+}
+
+.question-holder .question {
+	margin-bottom: 5px;
+	padding-left: 20px;
+}
+.question-holder .search-btn {
+	background-color: #5Fb1EF;
+  	color: white;
+}
+
+.search-overlay {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: black;
+	opacity : 0;
+	transition : opacity 0.3s;
+}
+
+.search-overlay .search-holder {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	height: 39px;
+}
+
+.zumata-back-arrow {
+	position: relative;
+	top: -22px;
+	left: 8px;
+  	color: #5Fb1EF;
+	font-size: 13px !important;
+	cursor: pointer;
+}
+
+.search-holder .search-field {
+	border-radius: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.search-overlay .default-vals {
+	position: relative;
+  	background-color: white;
+  	margin-right: 5px;
+	margin-left: 5px;
+  	font-size: 12px;
+	border-bottom: 1px solid #eee;
+}
+
+.searched-vals {
+	position: relative;
+  	background-color: white;
+  	margin-right: 5px;
+  	
+	margin-left: 5px;
+  	font-size: 12px;
+	border-bottom: 1px solid #eee;
+	max-height: 80%;
+	overflow-y: auto;
+	overflow-x: hidden;
+} 
+.zumata-search {
+	height: 42px;
+}
+.zumata-search .zumata-search-icon {
+	position: relative;
+  	top: -32px;
+  	left: 5px;
+  	color: #5Fb1EF;
+}
+
+.zumata-clear-icon {
+	position: relative;
+	top: -22px;
+	left: calc(100% - 35px);;
+  	color: #5Fb1EF;
+	font-size: 13px !important;
+	cursor: pointer;
+}
+
+.searched-vals li, .default-vals li {
+	padding-top: 10px;
+  	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+
+.searched-vals li span, .default-vals li span {
+	margin-left: 10px;
+	color: #797779;
+}
+.highlightedText {
+	font-weight: bold;
+	margin-left: 0px !important;
+	color: black !important;
+}
+.searched-vals  li i, .default-vals li i {
+	color: #d1cfd1;
+}
+
+.group-header {
+	font-size: 10px;
+	margin-left: 10px;
+	color: rgb(255, 129, 92);
+	padding-top: 5px;
+}
+
+.search-btn:hover {
+	background-color: #2C73A9;
+}
+.zero-padding {
+	padding-right: 0;
+  	padding-left: 0;
+}
+
+.zero-margin {
+	margin-left: 0px;
+	margin-right: 0;
+}
+
+.full-height {
+	height: 100%;
+}
+.half-height {
+	height: 50%;
+}
+.display-inline {
+	display: inline;
+}
+.clearBoth {
+	clear: both;
+}
+
+.default-wrapper {
+	max-height: 0%;
+  	overflow-y: hidden;
+  	overflow-x: hidden;
+  	transition: max-height 0.5s;
+}
+
+.overrideLeft {
+	left: 24px !important;
+}
+
+.searched-vals li:hover {
+	background-color: #92B9D8;
+}
+.searched-vals li:hover .name {
+	color: white;
+}
+.searched-vals .cityname {
+	margin-left: 16px !important;
+}
+.searched-vals li:hover .highlightedText, .searched-vals li:hover .bottom-block {
+	color: white !important;
+}
+
+.searched-vals .bottom-block {
+	display: block;
+  	position: relative;
+  	left: 20px;
+  	top: 4px;
+}
+
+/*To Customise the scroll bar*/
+
+::-webkit-scrollbar{
+width:5px;
+background-color:#cccccc;
+} 
+::-webkit-scrollbar-thumb{
+background-color:#696969;
+border-radius:10px;
+}
